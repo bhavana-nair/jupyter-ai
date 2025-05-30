@@ -37,6 +37,7 @@ test-slash-command = "jupyter_ai_test.test_slash_commands:TestSlashCommand"
 
 [project.entry-points."jupyter_ai.personas"]
 debug-persona = "jupyter_ai_test.debug_persona:DebugPersona"
+agno-persona = "jupyter_ai_test.agnoPersona.agno_persona:AgnoPersona"
 
 [tool.hatch.build.hooks.version]
 path = "jupyter_ai_test/_version.py"
